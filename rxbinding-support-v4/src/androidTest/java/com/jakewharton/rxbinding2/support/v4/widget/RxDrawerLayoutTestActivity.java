@@ -3,8 +3,8 @@ package com.jakewharton.rxbinding2.support.v4.widget;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v4.widget.DrawerLayout.LayoutParams;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.drawerlayout.widget.DrawerLayout.LayoutParams;
 import android.widget.FrameLayout;
 
 import static android.view.Gravity.RIGHT;

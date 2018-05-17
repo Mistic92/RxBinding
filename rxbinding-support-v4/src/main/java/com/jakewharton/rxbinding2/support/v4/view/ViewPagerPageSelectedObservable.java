@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.support.v4.view;
 
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
 import com.jakewharton.rxbinding2.InitialValueObservable;
 import io.reactivex.Observer;
 import io.reactivex.android.MainThreadDisposable;

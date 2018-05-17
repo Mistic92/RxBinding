@@ -1,11 +1,11 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
 import android.content.Context;
-import android.support.design.widget.NavigationView;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.annotation.UiThreadTest;
-import android.support.test.rule.UiThreadTestRule;
-import android.support.test.runner.AndroidJUnit4;
+import com.google.android.material.navigation.NavigationView;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.annotation.UiThreadTest;
+import androidx.test.rule.UiThreadTestRule;
+import androidx.test.runner.AndroidJUnit4;
 import android.view.ContextThemeWrapper;
 import android.view.Menu;
 import android.view.MenuItem;

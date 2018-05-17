@@ -1,8 +1,8 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
-import android.support.annotation.NonNull;
-import android.support.design.widget.TabLayout;
-import android.support.design.widget.TabLayout.Tab;
+import androidx.annotation.NonNull;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayout.Tab;
 
 public abstract class TabLayoutSelectionEvent {
   TabLayoutSelectionEvent() {

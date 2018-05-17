@@ -1,8 +1,8 @@
 package com.jakewharton.rxbinding2.support.v4.widget;
 
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
-import android.support.v4.widget.DrawerLayout;
+import androidx.annotation.CheckResult;
+import androidx.annotation.NonNull;
+import androidx.drawerlayout.widget.DrawerLayout;
 import com.jakewharton.rxbinding2.InitialValueObservable;
 import io.reactivex.functions.Consumer;
 

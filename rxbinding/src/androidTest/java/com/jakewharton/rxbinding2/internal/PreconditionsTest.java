@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.internal;
 
-import android.support.test.annotation.UiThreadTest;
-import android.support.test.rule.UiThreadTestRule;
+import androidx.test.annotation.UiThreadTest;
+import androidx.test.rule.UiThreadTestRule;
 import com.jakewharton.rxbinding2.RecordingObserver;
 import org.junit.Rule;
 import org.junit.Test;

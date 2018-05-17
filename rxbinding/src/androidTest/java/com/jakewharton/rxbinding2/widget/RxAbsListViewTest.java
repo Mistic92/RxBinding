@@ -1,9 +1,9 @@
 package com.jakewharton.rxbinding2.widget;
 
 import android.app.Instrumentation;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
 import android.widget.ListView;
 import com.jakewharton.rxbinding2.RecordingObserver;
 import io.reactivex.android.schedulers.AndroidSchedulers;

@@ -1,9 +1,9 @@
 package com.jakewharton.rxbinding2.support.v4.widget;
 
-import android.support.test.annotation.UiThreadTest;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
-import android.support.v4.widget.NestedScrollView;
+import androidx.test.annotation.UiThreadTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+import androidx.core.widget.NestedScrollView;
 import com.jakewharton.rxbinding2.RecordingObserver;
 import com.jakewharton.rxbinding2.view.ViewScrollChangeEvent;
 import org.junit.Before;

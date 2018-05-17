@@ -1,6 +1,6 @@
 package com.jakewharton.rxbinding2.support.v17.leanback.widget;
 
-import android.support.v17.leanback.widget.SearchBar;
+import androidx.leanback.widget.SearchBar;
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.android.MainThreadDisposable;

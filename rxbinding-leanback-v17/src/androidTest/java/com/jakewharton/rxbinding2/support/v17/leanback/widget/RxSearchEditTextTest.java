@@ -1,11 +1,11 @@
 package com.jakewharton.rxbinding2.support.v17.leanback.widget;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.annotation.UiThreadTest;
-import android.support.test.rule.UiThreadTestRule;
-import android.support.test.runner.AndroidJUnit4;
-import android.support.v17.leanback.widget.SearchEditText;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.annotation.UiThreadTest;
+import androidx.test.rule.UiThreadTestRule;
+import androidx.test.runner.AndroidJUnit4;
+import androidx.leanback.widget.SearchEditText;
 import android.view.KeyEvent;
 import com.jakewharton.rxbinding2.RecordingObserver;
 import org.junit.Before;

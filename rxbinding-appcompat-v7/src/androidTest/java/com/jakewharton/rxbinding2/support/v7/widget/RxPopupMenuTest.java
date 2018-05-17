@@ -1,11 +1,11 @@
 package com.jakewharton.rxbinding2.support.v7.widget;
 
 import android.app.Instrumentation;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.annotation.UiThreadTest;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
-import android.support.v7.widget.PopupMenu;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.annotation.UiThreadTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+import androidx.appcompat.widget.PopupMenu;
 import android.view.Menu;
 import android.view.MenuItem;
 import com.jakewharton.rxbinding2.RecordingObserver;

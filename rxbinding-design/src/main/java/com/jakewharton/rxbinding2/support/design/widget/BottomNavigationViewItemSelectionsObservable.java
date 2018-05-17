@@ -1,8 +1,8 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.BottomNavigationView.OnNavigationItemSelectedListener;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.bottomnavigation.BottomNavigationView.OnNavigationItemSelectedListener;
 import android.view.Menu;
 import android.view.MenuItem;
 import io.reactivex.Observable;

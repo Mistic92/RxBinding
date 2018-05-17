@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.support.v4.widget;
 
-import android.support.v4.widget.DrawerLayout;
-import android.support.v4.widget.DrawerLayout.DrawerListener;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.drawerlayout.widget.DrawerLayout.DrawerListener;
 import android.view.View;
 import com.jakewharton.rxbinding2.InitialValueObservable;
 import io.reactivex.Observer;

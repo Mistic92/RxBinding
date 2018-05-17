@@ -2,9 +2,9 @@ package com.jakewharton.rxbinding2.support.design.widget;
 
 import android.app.Instrumentation;
 import android.content.Context;
-import android.support.design.widget.Snackbar;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.runner.AndroidJUnit4;
 import android.view.ContextThemeWrapper;
 import android.widget.FrameLayout;
 import com.jakewharton.rxbinding2.RecordingObserver;
@@ -13,8 +13,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static android.support.design.widget.Snackbar.Callback.DISMISS_EVENT_MANUAL;
-import static android.support.design.widget.Snackbar.LENGTH_SHORT;
+import static com.google.android.material.snackbar.Snackbar.Callback.DISMISS_EVENT_MANUAL;
+import static com.google.android.material.snackbar.Snackbar.LENGTH_SHORT;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(AndroidJUnit4.class) public final class RxSnackbarTest {

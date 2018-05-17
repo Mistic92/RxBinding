@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
-import android.support.design.widget.TabLayout;
-import android.support.design.widget.TabLayout.Tab;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayout.Tab;
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.android.MainThreadDisposable;

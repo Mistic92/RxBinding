@@ -1,6 +1,6 @@
 package com.jakewharton.rxbinding2.support.v7.widget;
 
-import android.support.v7.widget.SearchView;
+import androidx.appcompat.widget.SearchView;
 import com.jakewharton.rxbinding2.InitialValueObservable;
 import io.reactivex.Observer;
 import io.reactivex.android.MainThreadDisposable;

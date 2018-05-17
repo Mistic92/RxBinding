@@ -1,8 +1,8 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
+import androidx.annotation.CheckResult;
+import androidx.annotation.NonNull;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import io.reactivex.functions.Consumer;
 

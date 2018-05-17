@@ -3,8 +3,8 @@ package com.jakewharton.rxbinding2.support.v4.widget;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.widget.SlidingPaneLayout;
-import android.support.v4.widget.SlidingPaneLayout.LayoutParams;
+import androidx.slidingpanelayout.widget.SlidingPaneLayout;
+import androidx.slidingpanelayout.widget.SlidingPaneLayout.LayoutParams;
 import android.widget.FrameLayout;
 
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;

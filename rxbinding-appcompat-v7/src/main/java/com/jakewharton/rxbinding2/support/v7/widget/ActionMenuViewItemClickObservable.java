@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.support.v7.widget;
 
-import android.support.v7.widget.ActionMenuView;
-import android.support.v7.widget.ActionMenuView.OnMenuItemClickListener;
+import androidx.appcompat.widget.ActionMenuView;
+import androidx.appcompat.widget.ActionMenuView.OnMenuItemClickListener;
 import android.view.MenuItem;
 import io.reactivex.Observable;
 import io.reactivex.Observer;

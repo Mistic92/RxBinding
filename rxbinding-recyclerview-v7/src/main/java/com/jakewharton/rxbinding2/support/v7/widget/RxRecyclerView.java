@@ -1,8 +1,8 @@
 package com.jakewharton.rxbinding2.support.v7.widget;
 
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.CheckResult;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import io.reactivex.Observable;
 
 import static com.jakewharton.rxbinding2.internal.Preconditions.checkNotNull;

@@ -1,8 +1,8 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
+import androidx.annotation.CheckResult;
+import androidx.annotation.NonNull;
+import com.google.android.material.snackbar.Snackbar;
 import io.reactivex.Observable;
 
 import static com.jakewharton.rxbinding2.internal.Preconditions.checkNotNull;

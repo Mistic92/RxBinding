@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.support.v4.widget;
 
-import android.support.v4.widget.NestedScrollView;
-import android.support.v4.widget.NestedScrollView.OnScrollChangeListener;
+import androidx.core.widget.NestedScrollView;
+import androidx.core.widget.NestedScrollView.OnScrollChangeListener;
 import com.jakewharton.rxbinding2.view.ViewScrollChangeEvent;
 import io.reactivex.Observable;
 import io.reactivex.Observer;

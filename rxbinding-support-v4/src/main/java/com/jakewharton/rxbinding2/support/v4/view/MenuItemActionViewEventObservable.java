@@ -1,6 +1,6 @@
 package com.jakewharton.rxbinding2.support.v4.view;
 
-import android.support.v4.view.MenuItemCompat.OnActionExpandListener;
+import androidx.core.view.MenuItemCompat.OnActionExpandListener;
 import android.view.MenuItem;
 import com.jakewharton.rxbinding2.view.MenuItemActionViewCollapseEvent;
 import com.jakewharton.rxbinding2.view.MenuItemActionViewEvent;
@@ -10,7 +10,7 @@ import io.reactivex.Observer;
 import io.reactivex.android.MainThreadDisposable;
 import io.reactivex.functions.Predicate;
 
-import static android.support.v4.view.MenuItemCompat.setOnActionExpandListener;
+import static androidx.core.view.MenuItemCompat.setOnActionExpandListener;
 import static com.jakewharton.rxbinding2.internal.Preconditions.checkMainThread;
 
 final class MenuItemActionViewEventObservable extends Observable<MenuItemActionViewEvent> {

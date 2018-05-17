@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.support.v4.widget;
 
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener;
 import com.jakewharton.rxbinding2.internal.Notification;
 import io.reactivex.Observable;
 import io.reactivex.Observer;

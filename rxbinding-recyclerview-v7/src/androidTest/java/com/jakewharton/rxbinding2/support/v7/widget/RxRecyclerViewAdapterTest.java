@@ -1,10 +1,10 @@
 package com.jakewharton.rxbinding2.support.v7.widget;
 
-import android.support.test.annotation.UiThreadTest;
-import android.support.test.rule.UiThreadTestRule;
-import android.support.test.runner.AndroidJUnit4;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
+import androidx.test.annotation.UiThreadTest;
+import androidx.test.rule.UiThreadTestRule;
+import androidx.test.runner.AndroidJUnit4;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import android.view.ViewGroup;
 import com.jakewharton.rxbinding2.RecordingObserver;
 import org.junit.Rule;

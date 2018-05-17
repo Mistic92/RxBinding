@@ -1,11 +1,11 @@
 package com.jakewharton.rxbinding2.support.v4.widget;
 
 import android.app.Instrumentation;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.espresso.Espresso;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
-import android.support.v4.widget.DrawerLayout;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.espresso.Espresso;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+import androidx.drawerlayout.widget.DrawerLayout;
 import com.jakewharton.rxbinding.ViewDirtyIdlingResource;
 import com.jakewharton.rxbinding2.RecordingObserver;
 import com.jakewharton.rxbinding2.UnsafeRunnable;
@@ -17,11 +17,11 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.contrib.DrawerMatchers.isClosed;
-import static android.support.test.espresso.contrib.DrawerMatchers.isOpen;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.contrib.DrawerMatchers.isClosed;
+import static androidx.test.espresso.contrib.DrawerMatchers.isOpen;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static android.view.Gravity.RIGHT;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

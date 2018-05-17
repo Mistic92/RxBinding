@@ -1,6 +1,6 @@
 package com.jakewharton.rxbinding2.support.v4.widget;
 
-import android.support.v4.widget.SlidingPaneLayout;
+import androidx.slidingpanelayout.widget.SlidingPaneLayout;
 import android.view.View;
 import io.reactivex.Observable;
 import io.reactivex.Observer;

@@ -1,9 +1,9 @@
 package com.jakewharton.rxbinding2.view;
 
 import android.app.Instrumentation;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
 import android.view.View;
 import android.widget.FrameLayout;
 import com.jakewharton.rxbinding2.RecordingObserver;

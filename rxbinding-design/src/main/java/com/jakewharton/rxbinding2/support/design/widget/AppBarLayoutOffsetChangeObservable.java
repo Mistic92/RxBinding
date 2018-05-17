@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.AppBarLayout.OnOffsetChangedListener;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.appbar.AppBarLayout.OnOffsetChangedListener;
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.android.MainThreadDisposable;

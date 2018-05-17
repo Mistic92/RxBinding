@@ -1,8 +1,8 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TextInputLayout;
+import androidx.annotation.CheckResult;
+import androidx.annotation.NonNull;
+import com.google.android.material.textfield.TextInputLayout;
 import com.jakewharton.rxbinding2.internal.GenericTypeNullable;
 import io.reactivex.functions.Consumer;
 

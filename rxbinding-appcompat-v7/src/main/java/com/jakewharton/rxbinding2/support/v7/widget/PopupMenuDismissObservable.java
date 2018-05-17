@@ -1,6 +1,6 @@
 package com.jakewharton.rxbinding2.support.v7.widget;
 
-import android.support.v7.widget.PopupMenu;
+import androidx.appcompat.widget.PopupMenu;
 import com.jakewharton.rxbinding2.internal.Notification;
 import io.reactivex.Observable;
 import io.reactivex.Observer;

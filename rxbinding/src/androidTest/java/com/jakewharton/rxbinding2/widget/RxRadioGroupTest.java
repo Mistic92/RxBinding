@@ -1,10 +1,10 @@
 package com.jakewharton.rxbinding2.widget;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.annotation.UiThreadTest;
-import android.support.test.rule.UiThreadTestRule;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.annotation.UiThreadTest;
+import androidx.test.rule.UiThreadTestRule;
+import androidx.test.runner.AndroidJUnit4;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import com.jakewharton.rxbinding2.RecordingObserver;

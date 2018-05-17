@@ -1,6 +1,6 @@
 package com.jakewharton.rxbinding2.support.v7.widget;
 
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import com.jakewharton.rxbinding2.internal.Notification;
 import io.reactivex.Observable;

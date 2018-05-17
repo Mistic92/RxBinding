@@ -1,7 +1,7 @@
 package com.jakewharton.rxbinding2.support.design.widget;
 
-import android.support.design.widget.Snackbar;
-import android.support.design.widget.Snackbar.Callback;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.snackbar.Snackbar.Callback;
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.android.MainThreadDisposable;
