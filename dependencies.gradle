@@ -9,11 +9,12 @@ ext {
 
   supportVersion = '27.0.2'
   supportAnnotations = "com.android.support:support-annotations:$supportVersion"
-  supportV4CoreUi = "com.android.support:support-core-ui:$supportVersion"
-  supportRecyclerView = "com.android.support:recyclerview-v7:$supportVersion"
-  supportAppCompat = "com.android.support:appcompat-v7:$supportVersion"
-  supportDesign = "com.android.support:design:$supportVersion"
-  supportLeanback = "com.android.support:leanback-v17:$supportVersion"
+  supportV4CoreUi = "androidx.appcompat:appcompat:1.0.0-alpha1"
+  supportRecyclerView = "androidx.appcompat:appcompat:1.0.0-alpha1"
+  supportAppCompat = "androidx.appcompat:appcompat:1.0.0-alpha1"
+  supportDesign = "com.google.android.material:material:1.0.0-alpha1"
+  supportLeanback = "androidx.appcompat:appcompat:1.0.0-alpha1"
+
 
   autoValue = 'com.google.auto.value:auto-value:1.5.2'
   autoValueAnnotations = 'com.jakewharton.auto.value:auto-value-annotations:1.5'
